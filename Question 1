@@ -1,0 +1,15 @@
+QUESTION 1. Write a Python function to sum all the numbers in a list.
+Code:
+numbers = [8, 2, 3, 0, 7] #We are assigning value to number as list
+def sum(numbers):
+  total = 0  #we are defining and asssigning value to total to store total
+
+  for x in numbers:
+    total += x
+
+  return total #we are returning value to function name 
+
+print(sum(numbers)) #printing returned value
+
+Output:-
+20
